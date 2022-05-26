@@ -1,0 +1,54 @@
+
+.container{
+width: 915px;
+min-height: 270px;
+padding-top: 30px;
+padding-bottom: 30px;
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: rgb(218, 255, 243);
+}
+.div-input{
+  position: absolute;
+  top: 40px;
+  left: 600px;
+}
+.text-input{
+  padding-left: 20px;
+  width: 310px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0ch;
+  margin-bottom: 10px;
+    }
+.div-buttons{
+  display: flex;
+  flex-direction: column;
+}
+.btn{ 
+  border: 0ch;
+  border-radius: 5px;
+  width: 330px;
+  height: 40px;
+  margin-bottom: 10px;
+  background-color: rgb(80, 83, 255);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 20px;
+}
+.not-found-div2{
+  background-color: coral;
+  color: aliceblue;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 310px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 20px;
+}
